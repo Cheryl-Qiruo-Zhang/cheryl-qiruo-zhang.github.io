@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #333;
+  background: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+a {
+  color: #2a6ebb;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.site {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 24px 42px;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  min-height: 58px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 15px;
+}
+
+.top-nav a {
+  color: #444;
+}
+
+.top-nav .brand {
+  margin-right: auto;
+  font-weight: 700;
+  color: #222;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 54px;
+  padding-top: 38px;
+}
+
+.sidebar {
+  color: #555;
+}
+
+.portrait {
+  width: 190px;
+  height: 190px;
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.sidebar h2 {
+  margin: 0 0 4px;
+  color: #333;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.position {
+  margin: 0 0 22px;
+  color: #555;
+}
+
+.follow-label {
+  margin: 24px 0 8px;
+  color: #555;
+  font-weight: 700;
+}
+
+.profile-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-list li {
+  position: relative;
+  margin: 8px 0;
+  padding-left: 22px;
+}
+
+.profile-list li::before {
+  position: absolute;
+  left: 0;
+  color: #777;
+}
+
+.profile-list .location::before {
+  content: "⌖";
+}
+
+.profile-list .institution::before {
+  content: "▣";
+}
+
+.profile-list .email::before {
+  content: "@";
+}
+
+.profile-list .cv::before,
+.profile-list .scholar::before,
+.profile-list .linkedin::before,
+.profile-list .github::before {
+  content: "↗";
+}
+
+.content {
+  max-width: 790px;
+}
+
+h1 {
+  margin: 0 0 22px;
+  color: #222;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h2 {
+  margin: 28px 0 10px;
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+p {
+  margin: 0 0 16px;
+}
+
+ul,
+ol {
+  margin: 8px 0 18px;
+  padding-left: 24px;
+}
+
+li {
+  margin: 7px 0;
+}
+
+.item {
+  margin-bottom: 26px;
+}
+
+.item h2 {
+  margin-bottom: 6px;
+}
+
+.meta {
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.links a {
+  display: inline-block;
+  margin-right: 14px;
+}
+
+.footer {
+  margin-top: 50px;
+  color: #777;
+  font-size: 14px;
+}
+
+@media (max-width: 840px) {
+  .site {
+    padding: 0 18px 36px;
+  }
+
+  .top-nav {
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    padding: 14px 0;
+  }
+
+  .top-nav .brand {
+    width: 100%;
+  }
+
+  .layout {
+    display: block;
+    padding-top: 28px;
+  }
+
+  .sidebar {
+    margin-bottom: 34px;
+  }
+
+  .portrait {
+    width: 160px;
+    height: 160px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
