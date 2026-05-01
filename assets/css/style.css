@@ -174,12 +174,12 @@ li {
 
 .compact-meta {
   margin: 2px 0 0;
-  color: #555;
+  color: #333;
 }
 
 .compact-note {
   margin: 2px 0 0;
-  color: #666;
+  color: #333;
   font-size: 15px;
 }
 
@@ -189,7 +189,7 @@ li {
 
 .meta {
   margin-bottom: 6px;
-  color: #555;
+  color: #333;
 }
 
 .links a {
