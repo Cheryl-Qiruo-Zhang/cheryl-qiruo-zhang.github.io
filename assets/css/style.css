@@ -91,34 +91,21 @@ a:focus {
 }
 
 .profile-list li {
-  position: relative;
-  margin: 8px 0;
-  padding-left: 22px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0;
 }
 
-.profile-list li::before {
-  position: absolute;
-  left: 0;
-  color: #777;
+.profile-list i {
+  width: 18px;
+  color: #4b5563;
+  text-align: center;
+  font-size: 18px;
 }
 
-.profile-list .location::before {
-  content: "⌖";
-}
-
-.profile-list .institution::before {
-  content: "▣";
-}
-
-.profile-list .email::before {
-  content: "@";
-}
-
-.profile-list .cv::before,
-.profile-list .scholar::before,
-.profile-list .linkedin::before,
-.profile-list .github::before {
-  content: "↗";
+.profile-list .fa-linkedin {
+  color: #0a66c2;
 }
 
 .content {
