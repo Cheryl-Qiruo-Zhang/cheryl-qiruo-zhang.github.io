@@ -81,26 +81,26 @@ a:focus {
 .profile-list {
   list-style: none;
   padding: 0;
-  margin: 26px 0 0;
+  margin: 22px 0 0;
   color: #555;
-  font-size: 17px;
-  line-height: 1.45;
+  font-size: 15px;
+  line-height: 1.35;
 }
 
 .profile-list li {
   display: flex;
   align-items: flex-start;
-  margin: 14px 0;
+  margin: 10px 0;
 }
 
 .profile-list i {
-  flex: 0 0 24px;
-  width: 24px;
-  margin-right: 10px;
+  flex: 0 0 20px;
+  width: 20px;
+  margin-right: 9px;
   color: #555;
   text-align: center;
-  font-size: 16px;
-  line-height: 1.45;
+  font-size: 15px;
+  line-height: 1.35;
 }
 
 .profile-list .fa-linkedin {
