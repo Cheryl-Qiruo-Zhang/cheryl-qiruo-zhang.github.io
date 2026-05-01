@@ -88,24 +88,40 @@ a:focus {
   list-style: none;
   padding: 0;
   margin: 0;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.45;
 }
 
 .profile-list li {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  column-gap: 10px;
+  align-items: start;
+  margin: 13px 0;
 }
 
 .profile-list i {
-  width: 18px;
-  color: #4b5563;
+  width: 22px;
+  color: #555;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 1.45;
 }
 
 .profile-list .fa-linkedin {
-  color: #0a66c2;
+  color: #0077b5;
+}
+
+.profile-list a,
+.profile-list span {
+  min-width: 0;
+  color: #555;
+  overflow-wrap: anywhere;
+}
+
+.profile-list a:hover {
+  color: #2a6ebb;
 }
 
 .content {
