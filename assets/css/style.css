@@ -158,10 +158,12 @@ li {
 
 .compact-list {
   margin-top: 12px;
+  padding-left: 22px;
 }
 
 .compact-item {
   margin-bottom: 18px;
+  padding-left: 2px;
 }
 
 .compact-title {
