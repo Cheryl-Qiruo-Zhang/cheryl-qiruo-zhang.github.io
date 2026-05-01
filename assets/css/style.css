@@ -78,16 +78,10 @@ a:focus {
   color: #555;
 }
 
-.follow-label {
-  margin: 24px 0 8px;
-  color: #555;
-  font-weight: 700;
-}
-
 .profile-list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 26px 0 0;
   color: #555;
   font-size: 17px;
   line-height: 1.45;
