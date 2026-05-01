@@ -89,20 +89,20 @@ a:focus {
   padding: 0;
   margin: 0;
   color: #555;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.45;
 }
 
 .profile-list li {
-  display: grid;
-  grid-template-columns: 22px minmax(0, 1fr);
-  column-gap: 10px;
-  align-items: start;
-  margin: 13px 0;
+  display: flex;
+  align-items: flex-start;
+  margin: 14px 0;
 }
 
 .profile-list i {
-  width: 22px;
+  flex: 0 0 24px;
+  width: 24px;
+  margin-right: 10px;
   color: #555;
   text-align: center;
   font-size: 16px;
