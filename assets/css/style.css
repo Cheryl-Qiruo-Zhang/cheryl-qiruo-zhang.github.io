@@ -156,6 +156,31 @@ li {
   margin-bottom: 26px;
 }
 
+.compact-list {
+  margin-top: 12px;
+}
+
+.compact-item {
+  margin-bottom: 18px;
+}
+
+.compact-title {
+  margin: 0;
+  color: #222;
+  font-weight: 600;
+}
+
+.compact-meta {
+  margin: 2px 0 0;
+  color: #555;
+}
+
+.compact-note {
+  margin: 2px 0 0;
+  color: #666;
+  font-size: 15px;
+}
+
 .item h2 {
   margin-bottom: 6px;
 }
