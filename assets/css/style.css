@@ -133,6 +133,7 @@ h1 {
 .cn-name {
   margin-left: 12px;
   color: #444;
+  font-family: KaiTi, STKaiti, "Kaiti SC", "楷体", serif;
   font-size: 0.72em;
   font-weight: 500;
   white-space: nowrap;
