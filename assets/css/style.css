@@ -432,7 +432,7 @@ h1 {
 }
 
 .presentation-avatar {
-  object-position: center center;
+  object-position: center 12%;
 }
 
 .research-intro {
@@ -542,13 +542,11 @@ h1 {
 
 .presentation-list {
   margin-top: 16px;
-  border-top: 1px solid #dfeae4;
 }
 
 .presentation-item {
   position: relative;
   padding: 17px 0 17px 22px;
-  border-bottom: 1px solid #dfeae4;
 }
 
 .presentation-item::before {
