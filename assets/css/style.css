@@ -591,6 +591,8 @@ h1 {
 
 .teaching-card {
   margin-bottom: 16px;
+  border-top: 0;
+  padding-top: 0;
 }
 
 .teaching-card:last-child {
