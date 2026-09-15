@@ -653,13 +653,13 @@ h1 {
 
 .presentation-item {
   position: relative;
-  padding: 17px 0 17px 22px;
+  padding: 7px 0 7px 22px;
 }
 
 .presentation-item::before {
   content: "";
   position: absolute;
-  top: 25px;
+  top: 15px;
   left: 1px;
   width: 7px;
   height: 7px;
